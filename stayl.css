@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: linear-gradient(to top right ,rgb(235, 86, 235),rgb(84, 45, 147),rgb(88, 215, 237));
+    height: 100vh;
+    overflow: hidden;
+    
+}
+button{
+    border: none;
+    width: 30%;
+    margin: auto;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: rgb(154, 154, 220);
+    box-shadow: 0px 0px 5px 5px rgb(114, 155, 205);
+}
+.conversation-one {
+    width: 80%;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    margin: 8px;
+    height: 75vh;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+h3{
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.conversation{
+    background-color: white;
+}
+.form{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    
+}
+.conversation-one button{
+    background-color: rgb(61, 163, 218);
+    width: 20%;
+    Height: 30px;
+}
+input{
+    width: 60%;
+    outline: 2px solid white;
+    border-radius: 7px;
+    border: 2px solid black;
+    height: 20px;
+    margin: 8px;
+    margin-left: 16px;
+}
+
+.conversation-two{
+    width: 80%;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    margin: 8px;
+    height: 75vh;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.conversation-two button{
+    background-color: rgb(61, 163, 218);
+    width: 20%;
+    Height: 30px;
+}
+.conversationOne{
+    margin-top: 50px;
+    height: 330px;
+    background-color: rgb(0, 0, 0);
+    overflow-y: auto;
+}
+.conversationTwo{
+    margin-top: 50px;
+    height: 330px;
+    background-color: rgb(0, 0, 0);
+    overflow-y: auto;
+}
+p{
+    position: relative;
+}
+.time{
+    position: absolute;
+    right: 10px;
+}
